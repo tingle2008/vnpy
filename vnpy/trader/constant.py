@@ -92,9 +92,13 @@ class Exchange(Enum):
     CFETS = "CFETS"         # CFETS Bond Market Maker Trading System
     XBOND = "XBOND"         # CFETS X-Bond Anonymous Trading System
 
+    #Canada.
+    TSE = "TSE"
+    CDE = "CDE"
     # Global
     SMART = "SMART"         # Smart Router for US stocks
     NYSE = "NYSE"           # New York Stock Exchnage
+    AMEX = "AMEX"           # NYSE American
     NASDAQ = "NASDAQ"       # Nasdaq Exchange
     ARCA = "ARCA"           # ARCA Exchange
     EDGEA = "EDGEA"         # Direct Edge Exchange
@@ -108,6 +112,9 @@ class Exchange(Enum):
     CME = "CME"             # Chicago Mercantile Exchange
     ICE = "ICE"             # Intercontinental Exchange
     SEHK = "SEHK"           # Stock Exchange of Hong Kong
+    SEHKNTL  = "SEHKNTL"    # Shanghai-Hong Kong Stock Connect
+    SEHKSTAR = "SEHKSTAR"   # Shanghai-Hong Kong Stock Connect
+    SEHKSZSE = "SEHKSZSE"   # Shanghai-Hong Kong Stock Connect
     HKFE = "HKFE"           # Hong Kong Futures Exchange
     SGX = "SGX"             # Singapore Global Exchange
     CBOT = "CBT"            # Chicago Board of Trade
@@ -123,6 +130,7 @@ class Exchange(Enum):
     KRX = "KRX"             # Korean Exchange
     OTC = "OTC"             # OTC Product (Forex/CFD/Pink Sheet Equity)
     IBKRATS = "IBKRATS"     # Paper Trading Exchange of IB
+
 
     # Special Function
     LOCAL = "LOCAL"         # For local generated data

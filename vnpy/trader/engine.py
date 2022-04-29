@@ -503,6 +503,7 @@ class OmsEngine(BaseEngine):
         """
         Get all position data.
         """
+        print(self.positions)
         return list(self.positions.values())
 
     def get_all_accounts(self) -> List[AccountData]:
