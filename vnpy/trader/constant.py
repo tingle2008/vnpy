@@ -131,10 +131,6 @@ class Exchange(Enum):
     OTC = "OTC"             # OTC Product (Forex/CFD/Pink Sheet Equity)
     IBKRATS = "IBKRATS"     # Paper Trading Exchange of IB
 
-    # some crytpo exchanges
-    DERIBIT = "DERIBIT"     # Deribit crypto
-    FTX = "FTX"             # FTX gogo
-
     # Special Function
     LOCAL = "LOCAL"         # For local generated data
 
